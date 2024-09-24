@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+    background-color: #0F8C80;
+    font-family:"Roboto Slab", serif, sans-serif;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #81D959;
+    padding: 35px;
+    margin: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main{
+    background-color:beige;
+    padding: 130px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color:#81D959;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 150px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.559);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 500px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #80bdff;
+    outline: none;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #92D971;
+    font-weight: bold;
+}
+
+button:hover{
+    transform: scale(1.05);
+    background-color: #D3F2B3;
+}
+
+.footer{
+    background-color: #92D971 ;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    border-radius: 3px;
+}

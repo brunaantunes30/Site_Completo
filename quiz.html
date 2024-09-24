@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Quiz EcoCores</title>
+</head>
+<body>
+    <header>
+        <img src="Imagens/Produtos Agrícolas Minimalista Logo.jpg" alt="Logo">
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Contato</a>
+        <a href="quiz.html">Quiz</a>
+    </nav>
+    <main>
+        <section class="quiz-section">
+        <h2>Quiz de Conhecimento sobre a Empresa EcoCores</h2>
+        <form id="quiz-form">
+
+            <section class="question">
+                <h3>1. Qual é a principal missão da Ecocores?</h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()"> A) Promover a sustentabilidade e a conscientização ambiental.</label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()"> B) Produzir produtos a baixo custo.</label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()"> C) Vender produtos de luxo.</label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()"> D) Criação de algo novo.</label><br>
+            </section>
+
+            <section class="question">
+                <h3>2. Qual destes materiais a Ecocores NÃO utiliza em seus produtos?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()"> A) Plástico reciclado. </label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()"> B) Algodão orgânico. </label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()"> C) Poliéster sintético. </label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()"> D) Bambu. </label><br>
+            </section>
+
+            <section class="question">
+                <h3>3. Como a Ecocores contribui para a redução do desperdício?</h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()"> A) Fabricando produtos descartáveis. </label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()"> B) Oferecendo um programa de recompra e reciclagem. </label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()"> C) Vendendo produtos em embalagens grandes. </label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()"> D) Usar sacolinhas plásticas. </label><br>
+            </section>
+
+            <section class="question">
+                <h3>4. Qual é um dos principais produtos da Ecocores?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()"> A) Roupas de algodão orgânico. </label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()"> B) Cosméticos testados em animais. </label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()"> C) Brinquedos de plástico descartável. </label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()"> D) Escovas Plásticas. </label><br>
+            </section>
+
+            <section class="question">
+                <h3>5. A Ecocores participa de iniciativas de educação ambiental. Qual é um exemplo dessas iniciativas?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()"> A) Feiras de produtos não sustentáveis. </label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()"> B) Workshops sobre reciclagem. </label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()"> C) Campanhas de vendas agressivas. </label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()"> D) Redes Sociais. </label><br>
+            </section>
+            <section class="question">
+                <h3>6. Qual é um dos principais benefícios dos produtos da Ecocores para o meio ambiente?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()"> A) Aumento da poluição. </label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()"> B) Redução da pegada de carbono. </label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()"> C) Causador de doenças. </label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()"> D) Uso excessivo de recursos naturais. </label><br>
+            </section>
+
+            <section class="question">
+                <h3>7. A Ecocores utiliza práticas de comércio justo. O que isso significa?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()"> A) Pagamento de salários injustos aos trabalhadores. </label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()"> B) Vendas apenas online. </Nav> </label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()"> C) Exploração de mão de obra infantil. </label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()"> D) Garantia de condições de trabalho justas e salários adequados para os produtores. </label><br>
+            </section>
+
+            <section class="question"></section>
+                <h3>8. Qual tipo de embalagem a Ecocores prioriza em seus produtos?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()"> A) Embalagens de vidro apenas. </label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()"> B) Embalagens não recicláveis. </label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()"> C) Embalagens plásticas convencionais. </label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()"> D) Embalagens recicláveis e biodegradáveis. </label><br>
+            </section>
+            <section class="question">
+                <h3>9. A Ecocores oferece produtos que são…</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()"> A) Sempre mais caros que os produtos convencionais. </label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()"> B) Apenas disponíveis em lojas físicas. </label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()"> C) Produzidos em fábricas poluentes. </label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()"> D) Acessíveis e sustentáveis. </label><br>
+            </section>
+
+            <section class="question">
+                <h3>10. Qual das seguintes práticas é incentivada pela Ecocores para seus consumidores?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()"> A) Reutilizar e reciclar produtos. </label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()"> B) Jogar lixo em locais não apropriados. </Nav> </label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()"> C) Comprar produtos descartáveis. </label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()"> D) Descartar produtos de forma inadequada. </label><br>
+            </section>
+            <br>
+            <br>
+
+            <button type="button" onclick="submitQuiz()">Enviar Respostas</button>
+            <button type="button" id="retry-button" onclick="resetQuiz()" disabled>Responder Novamente</button>
+        </form>
+
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+        <section id="result"></section>
+    </section>
+    </main>
+
+    <footer> Site criado por Bruna Antunes!</footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
